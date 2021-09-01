@@ -1,30 +1,33 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <Navbar />
+  <div v-if="!isHome">
+    <Breadcrumbs />
   </div>
-  <router-view/>
+  <main id="main">
+    <router-view />
+  </main>
 </template>
 
+<script>
+import "@/assets/style.css";
+import Navbar from "./components/layouts/Navbar.vue";
+import Breadcrumbs from "./components/Breadcrumbs.vue";
+
+export default {
+  components: {
+    Navbar,
+    Breadcrumbs,
+  },
+  computed: {
+    isHome() {
+      return this.$route.name === "Home";
+    },
+  },
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#navbar ul li a.router-link-exact-active {
+  color: #f03c02;
 }
 </style>
