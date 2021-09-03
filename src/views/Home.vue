@@ -6,7 +6,9 @@
         <!-- Slide 1 -->
         <div
           class="carousel-item active"
-          style="background-image: url(assets/img/slide/slide-1.jpg)"
+          style="
+            background-image: url(https://pixabay.com/get/g352521bed457b04cea2f48abf3b8be591964429eb42e8bb0566a5b73f8014b1cd60a596530ed0dcd1328a91fa6ecbd2a_1920.jpg);
+          "
         >
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
