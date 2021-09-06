@@ -7,15 +7,21 @@
         <div
           class="carousel-item active"
           style="
-            background-image: url(https://pixabay.com/get/g352521bed457b04cea2f48abf3b8be591964429eb42e8bb0566a5b73f8014b1cd60a596530ed0dcd1328a91fa6ecbd2a_1920.jpg);
+            background-image: url(https://pixabay.com/get/g04fc8a8ed591165ad426e6749ee9ed7e87073fbccad88165280eda722d02dac4fb17b3013fd95e51d3c358a6cb58bc18_1920.jpg);
           "
         >
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Welcome to <span>Zithembe E & I Projects</span></h2>
-              <p>we are a</p>
+              <p>
+                Zithembe projects provides electrical and instrumentation
+                engineering and construction services for continuous-production
+                plant.
+              </p>
               <div class="text-center">
-                <a href="" class="btn-get-started">Read More</a>
+                <router-link to="/about" class="btn-get-started"
+                  >Read More</router-link
+                >
               </div>
             </div>
           </div>

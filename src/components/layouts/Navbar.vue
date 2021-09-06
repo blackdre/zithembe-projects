@@ -11,7 +11,7 @@
           ></i
         >
         <i class="bi bi-phone d-flex align-items-center ms-4"
-          ><span>+1 5589 55488 55</span></i
+          ><span>‎+27 13 692 3144</span></i
         >
       </div>
       <div class="social-links d-none d-md-flex align-items-center">

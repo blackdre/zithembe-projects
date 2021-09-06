@@ -1,0 +1,12 @@
+{
+  "gallery": [
+    { 
+        "id": 1,
+        "title": "json-server",
+        "image": "./light-bulbs-1407610_1280.jpg" 
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ]  
+}

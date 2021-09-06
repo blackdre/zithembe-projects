@@ -11,7 +11,7 @@
 
   <section id="contact" class="contact">
     <div class="container">
-      <div class="row justify-content-center" data-aos="fade-up">
+      <!-- <div class="row justify-content-center" data-aos="fade-up">
         <div class="col-lg-10">
           <div class="info-wrap">
             <div class="row">
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row mt-5 justify-content-center" data-aos="fade-up">
         <div class="col-lg-10">

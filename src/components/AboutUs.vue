@@ -30,9 +30,12 @@ export default {
         {
           id: 1,
           title: "About Us",
-          body: "About Us Section",
+          body: "Zithembe E & I projects has significant experience in delivering complete electrical projects to major operators around the world, onshore and offshore. Our clients include world-leading companies from the chemicals, oil & gas and energy industries. We understand the challenges these industries face today: they need to reduce operational costs, maximize uptime and optimize maintenance efficiency",
         },
       ],
+      // image: [
+      //   fetch("")
+      // ]
     };
   },
 };
