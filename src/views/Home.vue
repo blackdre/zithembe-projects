@@ -66,4 +66,7 @@ export default {
 </script>
 
 <style scoped>
+.carousel-item {
+  background-image: url(../assets/hero.jpg) !important;
+}
 </style>

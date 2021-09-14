@@ -3,7 +3,7 @@
   <div class="map-section">
     <iframe
       style="border: 0; width: 100%; height: 350px"
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.030140536203!2d29.212439814619668!3d-25.868485383588354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eeaed48d4cd861f%3A0x5ebe642154a1f8fc!2s15%20Voortrekker%20St%2C%20Witbank%2C%20Emalahleni%2C%201035!5e0!3m2!1sen!2sza!4v1631001845263!5m2!1sen!2sza"
       frameborder="0"
       allowfullscreen
     ></iframe>
@@ -11,31 +11,31 @@
 
   <section id="contact" class="contact">
     <div class="container">
-      <!-- <div class="row justify-content-center" data-aos="fade-up">
+      <div class="row justify-content-center" data-aos="fade-up">
         <div class="col-lg-10">
           <div class="info-wrap">
             <div class="row">
               <div class="col-lg-4 info">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street<br />New York, NY 535022</p>
+                <p>15 Voortrkker Road Ext 3<br />Witbank, Mpumalanga</p>
               </div>
 
               <div class="col-lg-4 info mt-4 mt-lg-0">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com<br />contact@example.com</p>
+                <p>info@zithembe-projects.co.za<br /></p>
               </div>
 
               <div class="col-lg-4 info mt-4 mt-lg-0">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 51<br />+1 5589 22475 14</p>
+                <p>+27 73 659 3840<br />+27 13 692 3144</p>
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <div class="row mt-5 justify-content-center" data-aos="fade-up">
         <div class="col-lg-10">

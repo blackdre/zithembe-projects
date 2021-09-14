@@ -991,8 +991,6 @@ section {
 }
 
 .about-us .image {
-  background: url("https://pixabay.com/get/g04fc8a8ed591165ad426e6749ee9ed7e87073fbccad88165280eda722d02dac4fb17b3013fd95e51d3c358a6cb58bc18_1920.jpg")
-    center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }

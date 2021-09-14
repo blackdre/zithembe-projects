@@ -11,7 +11,7 @@
           <div class="icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-plug-fill"></i></div>
             <h4 class="title">
-              <a href="">{{ service.title }}</a>
+              <p>{{ service.title }}</p>
             </h4>
             <p class="description">
               {{ service.description }}

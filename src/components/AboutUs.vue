@@ -42,4 +42,7 @@ export default {
 </script>
 
 <style>
+.about-us .image {
+  background: url("../assets/light-bulbs.jpg") center center no-repeat;
+}
 </style>
