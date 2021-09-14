@@ -1,40 +1,39 @@
 <template>
-  <h1>Portfolio</h1>
-  <button @click="showSingle">Show single picture.</button>
-  <button @click="showMultiple">Show a group of pictures.</button>
-  <VueEasyLightbox
-    :visible="visible"
-    :imgs="imgs"
-    :index="index"
-    @hide="handleHide"
-  ></VueEasyLightbox>
+  <swiper
+    :slides-per-view="3"
+    :space-between="50"
+    @swiper="onSwiper"
+    @slideChange="onSlideChange"
+  >
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+    ...
+  </swiper>
 </template>
-
 <script>
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from "swiper/vue";
+
+// Import Swiper styles
+import "swiper/css";
+
 export default {
-  data() {
-    return {
-      visible: false,
-      index: 0, // default: 0
-      imgs: [
-        "https://via.placeholder.com/450.png/",
-        "https://via.placeholder.com/300.png/",
-        "https://via.placeholder.com/150.png/",
-        { src: "https://via.placeholder.com/450.png/", title: "this is title" },
-      ],
-    };
+  components: {
+    Swiper,
+    SwiperSlide,
   },
-  methods: {
-    showImg(index) {
-      this.index = index;
-      this.visible = true;
-    },
-    handleHide() {
-      this.visible = false;
-    },
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log("slide change");
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+    };
   },
 };
 </script>
-
-<style>
-</style>
